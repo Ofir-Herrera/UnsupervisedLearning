@@ -10,7 +10,7 @@ The goal is to extract meaningful features from the images and apply **KMeans cl
 ![Original Bacteria Image](./plots/original_2.png)
 
 ### Segmentation Result After KMeans Clustering
-![Segmented Bacteria Image](./cluster_overlay_3_2.png)
+![Segmented Bacteria Image](./plots/cluster_overlay_3_2.png)
 ## 📂 Project Structure
 
 . ├── config.py # Set hyperparameters (image name, kernels, number of clusters, etc.) ├── main.py # Main script to run the pipeline ├── image_loader.py # Load microscopy images ├── feature_extractor.py # Feature extraction (Gaussian blur difference, Laplacian, edges) ├── clusterer.py # KMeans clustering ├── visualizer.py # Visualization utilities (save plots, masks, histograms, etc.) ├── statistical_analyzer.py # Silhouette score analysis ├── utils.py # Helper functions (normalization, etc.) ├── images/ # Input images folder ├── plots/ # Output folder for generated plots and results └── README.md # This file
