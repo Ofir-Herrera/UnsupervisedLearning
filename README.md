@@ -33,7 +33,9 @@ Run main.py:
 After execution, all the results (plots, segmented masks, silhouette analysis, etc.) will be saved automatically inside the plots/ folder.
 
 A detailed project report, including background, methodology, results, and discussion, is available here:
-Project Report: 
+The full project report is available [here](./Unsupervised_Learning.pdf).
+
+
 
 Notes:
 Input images must be placed inside the images/ directory.
