@@ -4,3 +4,9 @@ opencv-python
 matplotlib
 seaborn
 notebook
+tensorflow
+scikit-learn
+TF-Keras
+torch
+torchvision
+jupyter
