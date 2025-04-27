@@ -4,13 +4,18 @@ This project addresses the task of segmenting *E. coli* bacteria in dense micros
 The goal is to extract meaningful features from the images and apply **KMeans clustering** to create segmentation masks, which can later be used for statistical analysis or as pseudo-labels for supervised learning.
 
 ---
+
 ## 🦠 Example Visualization
 
-### Original Microscopy Image
-![Original Bacteria Image](./plots/original_2.png)
+<p align="center">
+  <img src="./plots/original_2.png" alt="Original Bacteria" width="400"/>
+  <img src="./plots/cluster_overlay_3_2.png" alt="Segmented Bacteria" width="400"/>
+</p>
 
-### Segmentation Result After KMeans Clustering
-![Segmented Bacteria Image](./plots/cluster_overlay_3_2.png)
+<p align="center">
+Original Microscopy Image (left) | Segmentation Result After KMeans Clustering (right)
+</p>
+
 ## 📂 Project Structure
 
 . ├── config.py # Set hyperparameters (image name, kernels, number of clusters, etc.) ├── main.py # Main script to run the pipeline ├── image_loader.py # Load microscopy images ├── feature_extractor.py # Feature extraction (Gaussian blur difference, Laplacian, edges) ├── clusterer.py # KMeans clustering ├── visualizer.py # Visualization utilities (save plots, masks, histograms, etc.) ├── statistical_analyzer.py # Silhouette score analysis ├── utils.py # Helper functions (normalization, etc.) ├── images/ # Input images folder ├── plots/ # Output folder for generated plots and results └── README.md # This file
