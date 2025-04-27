@@ -16,8 +16,6 @@ Edit
 ---
 
 ## ⚙️ How to Run
-
-1.
 Set the hyperparameters:
 Open config.py and modify the following parameters:
 
